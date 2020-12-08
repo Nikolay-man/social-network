@@ -1,0 +1,22 @@
+
+.paginator {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.pageNumber {
+    border: 1px solid grey;
+    padding: 0px 2px;
+    width: 25px;
+    text-align: center;
+}
+
+.pageNumber.selectedPage {
+    font-weight: bold;
+    border-color: black;
+}
+
+.titleText {
+    color: rgb(78, 78, 78);
+}

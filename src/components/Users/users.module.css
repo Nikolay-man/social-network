@@ -1,0 +1,29 @@
+.userPhoto {
+    width: 80px;
+   height: 80px;
+}
+
+.users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid grey;
+    margin: 0px 30px;
+}
+
+.buttonFollowed {
+    width: 80px;
+}
+
+.titleText {
+    color: rgb(78, 78, 78);
+}
+
+.userInfo {
+    padding: 10px;
+}
+
+
+
+

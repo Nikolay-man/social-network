@@ -1,0 +1,52 @@
+.descriptionBlock {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+.blockLeft, .blockRight {
+    background-color: rgb(129, 207, 252);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.blockRight {
+    float:right; 
+}
+
+.mainPhoto {
+    max-width: 260px;
+}
+
+.contact {
+    padding-left: 20px;
+}
+
+.titleText {
+    color: rgb(78, 78, 78);
+}
+
+.buttonGoToEditMode {
+    float: right;
+    padding-top: 5px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    color: rgb(7, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 3px 7px;
+    background-color: #E5E5E5;
+    border: grey solid 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
